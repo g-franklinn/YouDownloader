@@ -8,3 +8,4 @@ MarkupSafe
 python-dotenv
 pytube
 Werkzeug
+gunicorn
