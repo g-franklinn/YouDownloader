@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.myNavbar {
+    height: 0;
+    position: relative;
+    top: 0;
+}
+
+h1 {
+    color: #dc3545;
+    font-size: 5rem;
+    font-family: 'Tiro Tamil', serif;
+}
+
+p {
+    color: white;
+}
+
+/* TRANSLATE BTNS */
+.translate-buttons {
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    border: 0;
+}
+
+.translate-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#pt-btn {
+    background-image: url("../images/brazil-icon.png");
+    background-position: center center;
+}
+
+#en-btn {
+    background-image: url("../images/us-icon.png");
+    background-position: center center;
+}
+
+/* PAGE 1 */
+
+#page1 { 
+    height: 960px;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    background-color: #282b36;
+    padding: 30px 0 50px 0;
+    border-radius: 60px;
+    width: 70%;
+}
+
+.mt-custom {
+    margin-top: -10rem;
+}
+
+input[type="text"] {
+    background-color: black !important;
+    color: white !important;
+    width: 550px;
+}
+
+
+::placeholder {
+    color: #ccb5b4 !important
+}
+
+#videoTitle {
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    margin-top: 30px;
+}
+
+.urlError {
+    color: #dc3545;
+}
+
+/* PAGE 2 */
+
+#page2 {
+    height: 900px;
+    background-image: url("../images/page2-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.aboutText {
+    padding: 140px 0 0 120px;
+}
+
+.aboutParagraph {
+    padding-top: 70px;
+    width: 750px;
+    font-size: 1.3rem;
+}
+
+
+/* PAGE 3 */
+
+#page3 {
+    height: 850px;
+    background-color: #171717;
+    align-items: center;
+    text-align: center;
+}
+
+.page3title {
+    padding: 90px 130px 50px 0;
+    text-align: right;
+}
+
+.about-phrase {
+    font-size: 1.3rem;
+    text-align: end;
+}
+
+.card-container {
+    background-color: #171717;
+    width: 94%;
+}
+
+.card {
+  background-color: #99403a;
+  color: #fff;
+  margin: 50px;
+  border: 0;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.card-img-top {
+max-height: 200px;
+object-fit: cover;
+}
+
+
+/* FOOTER */
+
+#footer {
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.footerP {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.nameA {
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footerA {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER PAGES */
+
+.footer-title {
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.footer-page {
+    height: 850px !important;
+}
+
+.bigger-page {
+    height: 1500px !important;
+}
+
+.privacy-page {
+    height: 1650px !important;
+}
+
+.footer-page h1,h4,p {
+    text-align: left;
+}
+
+/* Custom CSS for scroll-to-top button */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #dc3545;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+  
+.scroll-to-top-btn:hover {
+  background-color: #9e1120;
+}
+
+
+
+@media (max-width: 1267px) {
+
+    body {
+        background-size: 500% 1080px;
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    /* PAGE 1 */
+    #page1 {
+        height: 800px;
+    }
+
+    .container {
+        width: 100%;
+        border-radius: 50px;
+        padding: 30px 0 80px 0;
+    }
+
+    .logo {
+        max-width: 80%;
+    }
+
+    input[type="text"] {
+        width: 270px;
+    }
+
+    /* PAGE 2 */
+
+    .aboutText {
+        padding: 90px 30px 30px 30px;
+    }
+
+    .aboutParagraph {
+        padding-top: 30px;
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    /* PAGE 3 */
+    #page3 {
+        height: 1200px;
+    }
+
+    .page3title {
+        padding: 50px 0 30px 0;
+        text-align: center;
+    }
+
+    .about-phrase {
+        font-size: 1.1rem;
+        width: 90%;
+        text-align: center;
+        padding: 20px 0 0 30px;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+    
+
+    /* FOOTER */
+    #footer{
+        height: 100px;
+        align-items: center;
+    }
+
+    .footerP {
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    /* FOOTER PAGES */
+    .footer-page {
+        height: 1200px !important;
+    }
+
+    .bigger-page {
+        height: 1800px !important;
+    }
+
+    .privacy-page {
+        height: 1900px !important;
+    }
+
+    .footer-page h1,h4,p {
+        text-align: center;
+    }
+}

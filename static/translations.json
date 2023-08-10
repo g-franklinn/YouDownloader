@@ -1,0 +1,120 @@
+{
+    "english":{
+      "text-nav-home": "Home",
+      "text-nav-about": "What is YouDownloader?",
+      "text-nav-usage": "Easy to use.",
+
+      "searchButton": "Search",
+
+      "about-us-title": "About YouDownloader",
+      "1-h4": "About Us",
+      "1-p": "At YouDownloader, we are passionate about providing users with a seamless and efficient way to download their favorite videos from YouTube. Our platform is designed to empower users with the ability to access and enjoy their desired content offline, anytime, anywhere.",
+      "2-h4": "Our Mission",
+      "2-p": "Our mission is simple: to make video downloading easy, secure, and accessible to everyone. We believe that online content should be available to users in a manner that suits their preferences and schedules. YouDownloader was created to give users the freedom to download videos for personal, non-commercial use, whether it's for educational purposes, entertainment, or simply to watch offline without relying on an internet connection.",
+      "3-h4": "Get Started Today",
+      "3-p": "We invite you to experience the convenience and versatility of YouDownloader. Start downloading your favorite YouTube videos and discover a new way to enjoy online content. Whether it's educational videos, music, tutorials, or inspiring content, YouDownloader is here to enhance your digital experience.",
+
+      "terms-title": "Terms of Service",
+      "2-1-h4": "Terms of Service (\"ToS\")",
+      "2-1-p": "Welcome to YouDownloader! These terms and conditions govern your use of our website and services. By using YouDownloader, you agree to be bound by the following terms. Please read them carefully.",
+      "2-2-h4": "Acceptance of Terms",
+      "2-2-p": "By accessing or using YouDownloader, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please refrain from using our services.",
+      "2-3-h4": "Service Description",
+      "2-3-p": "YouDownloader is a platform that allows users to download videos from YouTube. Our services are intended for personal, non-commercial use only.",
+      "2-4-h4": "Copyright and Intellectual Property",
+      "2-4-p": "YouDownloader respects the intellectual property rights of others, and users are expected to do the same. You may not use our services to download copyrighted material unless you have permission from the content owner or the material is in the public domain.",
+      "2-5-h4": "User Conduct",
+      "2-5-p": "a. You must be at least 13 years old to use YouDownloader. b. You agree not to use YouDownloader for any unlawful purpose or in violation of any applicable laws. c. You shall not attempt to disrupt the integrity or security of our services or any related systems. d. You are solely responsible for the content you download using YouDownloader, and you assume all risks associated with the use of downloaded materials.",
+      "2-6-h4": "Modification of Terms",
+      "2-6-p": "We reserve the right to update or modify these terms at any time without prior notice. It is your responsibility to review the terms periodically. Continued use of YouDownloader after any changes constitutes acceptance of the revised terms.",
+
+      "privacy-title": "Privacy Policy",
+      "3-1-h4": "Privacy Policy",
+      "3-1-p": "Last updated: 08/03/2023<br>At YouDownloader (\"we,\" \"us,\" or \"our\"), we take your privacy seriously. This Privacy Policy explains how we handle user information when you access and use our website and services. We want to assure you that we do not collect any personal data from our users.",
+      "3-2-h4": "Information We Do Not Collect",
+      "3-2-p": "Personal Information: We do not collect any personally identifiable information, such as names, email addresses, or contact details. You can use YouDownloader anonymously, and we do not request or store any personal data.<br>Usage Data: We do not gather any usage data, including IP addresses, browser types, or operating system information. Your activity on YouDownloader is not tracked or recorded in any way.",
+      "3-3-h4": "No Data Sharing or Third-Party Services",
+      "3-3-p": "Since we do not collect any user data, we have no information to share with third-party services. You can use YouDownloader without concerns about your information being shared with others.",
+      "3-4-h4": "Cookies and Tracking Technologies",
+      "3-4-p": "YouDownloader may use cookies and similar tracking technologies to enhance your user experience and improve our services. Cookies are small data files stored on your device that allow us to recognize and remember your preferences. You can modify your browser settings to refuse cookies or notify you when cookies are being sent. Please note that disabling cookies may impact some features of YouDownloader.",
+      "3-5-h4": "Children's Privacy",
+      "3-5-p": "YouDownloader is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us, and we will take appropriate action to remove the information.",
+      "3-6-h4": "Changes to This Privacy Policy",
+      "3-6-p": "We reserve the right to update or modify this Privacy Policy at any time. Changes will be posted on this page with the updated \"Last updated\" date. Please review this page periodically to stay informed about our data practices. Your continued use of YouDownloader after any changes to this Privacy Policy constitutes your acceptance of the updated terms.",
+
+      "what-is-ytdownloader": "What is YouDownloader?",
+      "4-1-p": "YouDownloader is a <strong>powerful online tool</strong> designed to provide to all your <strong>video downloading needs</strong>. Whether you want to save your <strong>favorite music videos</strong>, <strong>educational content</strong>, or <strong>entertaining clips</strong> for offline viewing, YouDownloader has got you covered. With a user-friendly interface and <strong>seamless functionality</strong>, downloading YouTube videos has never been more convenient. You'll have your chosen videos downloaded and ready to <strong>enjoy anytime, anywhere</strong>. <strong>Embrace the freedom</strong> of offline viewing with YouDownloader and <strong>unlock a world of captivating content</strong> at your fingertips.",
+
+      "easy-to-use": "Easy to Use.",
+      "4-2-p": "<strong>Straightforward</strong> and <strong>intuitive</strong> platform for video downloads.</p>",
+      "4-1-h4": "Search",
+      "4-2-h4": "Watch",
+      "4-3-h4": "Download",
+
+      "made-by": "Made by",
+      "about-us-page": "About us",
+      "terms-of-service": "Terms of service",
+      "privacy-policy": "Privacy Policy"
+
+    },
+
+
+    "portuguese":{
+        "text-nav-home": "Inicio",
+        "text-nav-about": "O que é YouDownloader?",
+        "text-nav-usage": "Fácil de usar.",
+
+        "searchButton": "Buscar",
+
+        "about-us-title": "Sobre o YouDownloader",
+        "1-h4": "Sobre Nós",
+        "1-p": "No YouDownloader, somos apaixonados por fornecer aos usuários uma maneira  eficiente de baixar seus vídeos favoritos do YouTube. Nossa plataforma foi projetada para capacitar os usuários com a habilidade de acessar e desfrutar de seu conteúdo desejado offline, a qualquer hora e em qualquer lugar.",
+        "2-h4": "Nosso Objetivo",
+        "2-p": "Nossa missão é simples: tornar o download de vídeos fácil, seguro e acessível a todos. Acreditamos que o conteúdo online deve estar disponível para os usuários de maneira que atenda às suas preferências e horários. O YouDownloader foi criado para dar aos usuários a liberdade de baixar vídeos para uso pessoal e não comercial, seja para fins educacionais, entretenimento ou simplesmente para assistir offline sem depender de uma conexão com a internet.",
+        "3-h4": "Comece Hoje Mesmo",
+        "3-p": "Nós convidamos você a experimentar a conveniência e versatilidade do YouDownloader. Comece a baixar seus vídeos favoritos do YouTube e descubra uma nova maneira de desfrutar do conteúdo online. Sejam vídeos educacionais, músicas, tutoriais ou conteúdos inspiradores, o YouDownloader está aqui para aprimorar sua experiência digital.",
+
+        "terms-title": "Termos de Serviço",
+        "2-1-h4": "Termos de Serviço (\"ToS\")",
+        "2-1-p": "Bem-vindo ao YouDownloader! Estes termos e condições regem o seu uso do nosso site e serviços. Ao utilizar o YouDownloader, você concorda em ficar vinculado pelos seguintes termos. Por favor, leia-os atentamente.",
+        "2-2-h4": "Aceitação dos Termos",
+        "2-2-p": "Ao acessar ou usar o YouDownloader, você reconhece que leu, compreendeu e concorda em ficar vinculado por estes Termos de Serviço. Se você não concordar com alguma parte destes termos, por favor, abstenha-se de usar nossos serviços.",
+        "2-3-h4": "Descrição do Serviço",
+        "2-3-p": "YouDownloader é uma plataforma que permite aos usuários baixar vídeos do YouTube. Nossos serviços são destinados apenas para uso pessoal e não comercial.",
+        "2-4-h4": "Copyright e Propriedade Intelectual",
+        "2-4-p": "O YouDownloader respeita os direitos de propriedade intelectual de terceiros, e espera-se que os usuários façam o mesmo. Você não pode usar nossos serviços para baixar material protegido por direitos autorais, a menos que tenha permissão do proprietário do conteúdo ou o material esteja em domínio público.",
+        "2-5-h4": "Conduta de Usuário",
+        "2-5-p": "a. Você deve ter pelo menos 13 anos para usar o YouDownloader. b. Você concorda em não utilizar o YouDownloader para qualquer propósito ilegal ou em violação de quaisquer leis aplicáveis. c. Você não deve tentar prejudicar a integridade ou segurança dos nossos serviços ou de quaisquer sistemas relacionados. d. Você é o único responsável pelo conteúdo que baixa usando o YouDownloader e assume todos os riscos associados ao uso de materiais baixados.",
+        "2-6-h4": "Modificação dos Termos",
+        "2-6-p": "Reservamo-nos o direito de atualizar ou modificar estes termos a qualquer momento, sem aviso prévio. É sua responsabilidade revisar os termos periodicamente. O uso contínuo do YouDownloader após quaisquer alterações constitui aceitação dos termos revisados.",
+
+        "privacy-title": "Política de Privacidade",
+        "3-1-h4": "Política de Privacidade",
+        "3-1-p": "Última atualização: 08/03/2023<br>No YouDownloader (\"nós,\" \"nos,\" ou \"nosso\"), levamos sua privacidade a sério. Esta Política de Privacidade explica como lidamos com as informações do usuário quando você acessa e utiliza nosso site e serviços. Queremos assegurar que não coletamos dados pessoais dos nossos usuários.",
+        "3-2-h4": "Informações Que Não Coletamos",
+        "3-2-p": "Informações Pessoais: Nós não coletamos nenhuma informação pessoalmente identificável, como nomes, endereços de e-mail ou detalhes de contato. Você pode usar o YouDownloader anonimamente, e não solicitamos nem armazenamos quaisquer dados pessoais.<br>Dados de Uso: Nós não coletamos nenhum dado de uso, incluindo endereços IP, tipos de navegador ou informações do sistema operacional. Sua atividade no YouDownloader não é rastreada ou registrada de forma alguma.",
+        "3-3-h4": "Sem Compartilhamento de Dados ou Serviços de Terceiros",
+        "3-3-p": "Uma vez que não coletamos nenhum dado do usuário, não temos informações para compartilhar com serviços de terceiros. Você pode usar o YouDownloader sem preocupações sobre suas informações serem compartilhadas com outros.",
+        "3-4-h4": "Cookies e Tecnologias de Rastreamento",
+        "3-4-p": "O YouDownloader pode usar cookies e tecnologias de rastreamento semelhantes para aprimorar sua experiência como usuário e melhorar nossos serviços. Cookies são pequenos arquivos de dados armazenados em seu dispositivo que nos permitem reconhecer e lembrar suas preferências. Você pode modificar as configurações do seu navegador para recusar cookies ou ser notificado quando os cookies estiverem sendo enviados. Por favor, observe que a desativação de cookies pode afetar algumas funcionalidades do YouDownloader.",
+        "3-5-h4": "Políticas de Crianças",
+        "3-5-p": "O YouDownloader não é destinado ao uso por indivíduos com menos de 13 anos. Não coletamos conscientemente informações pessoais de crianças menores de 13 anos. Se você for pai, mãe ou responsável e acreditar que seu filho nos forneceu informações pessoais, por favor, entre em contato conosco, e tomaremos as medidas apropriadas para remover as informações.",
+        "3-6-h4": "Mudanças à Política de Privacidade",
+        "3-6-p": "Reservamos o direito de atualizar ou modificar esta Política de Privacidade a qualquer momento. As alterações serão postadas nesta página com a data de \"Última atualização\" atualizada. Por favor, reveja periodicamente esta página para se manter informado sobre nossas práticas de dados. Seu uso contínuo do YouDownloader após quaisquer alterações nesta Política de Privacidade constitui sua aceitação dos termos atualizados.",
+
+
+        "what-is-ytdownloader": "O que é YouDownloader?",
+        "4-1-p": "O YouDownloader é uma <strong>poderosa</strong> ferramenta online projetada para atender a todas as suas <strong>necessidades de download de vídeos</strong>. Salve seus <strong>clipes musicais favoritos</strong>, <strong>conteúdo educativo</strong> ou <strong>shorts divertidos</strong> para visualização offline, o YouDownloader tem tudo o que você precisa. Com uma <strong>interface de usuário amigável</strong> e <strong>funcionalidade perfeita</strong>, você verá seus <strong>vídeos escolhidos</strong> serem baixados com <strong>agilidade</strong>, prontos para serem apreciados a qualquer momento e em qualquer lugar que você desejar. Abraçe a <strong>liberdade da visualização offline.",
+
+        "easy-to-use": "Fácil de Usar.",
+        "4-2-p": "Uma plataforma <strong>simples</strong> e <strong>intuitiva</strong> para <strong>baixar vídeos</strong>.",
+        "4-1-h4": "Pesquise",
+        "4-2-h4": "Assista",
+        "4-3-h4": "Baixe",
+
+        "made-by": "Criado por",
+        "about-us-page": "Sobre nós",
+        "terms-of-service": "Termos de serviço",
+        "privacy-policy": "Política de privacidade"
+    }
+}

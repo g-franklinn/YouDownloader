@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <div id="page1">
+        <div class="container mt-custom">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col-sm-10 text-center">
+                    <img src="{{url_for('static', filename='images/YouDownloader.png')}}" alt="Logo" class="mb-5 logo">
+                    <div class="input-group justify-content-center">
+                        <form class="d-flex" action="/search" method="post">
+                            <div class="input-group-append"></div>
+                                <input type="text" class="form-control border border-dark input-bar" placeholder="Video URL ex: https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="videoURL" name="videoURL">
+                                <button class="btn btn-danger" type="submit" id="searchButton">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

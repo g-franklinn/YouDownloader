@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouDownloader</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap" rel="stylesheet">
+    <!--Styles.css-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../static/images/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="pos-f-t myNavbar">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link text-white" href="/#page1" id="text-nav-home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="/#page2" id="text-nav-about">What is YouDownloader?</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white" href="/#page3" id="text-nav-usage">Easy to use.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-transparent">
+            <button class="navbar-toggler navbarBtn" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div>
+
+    <div class="translate-buttons">
+        <button class="translate-btn" id="pt-btn""></button>
+        <button class="translate-btn" id="en-btn""></button>
+    </div>
+
+      <!-- PAGE 1 FOR EACH PAGE -->
+      <div class="content">
+        {% block content %}{% endblock %}
+      </div>
+
+     <!-- PAGE 2 AND PAGE 3 MAY NOT APPEAR ON EVERY PAGE.HTML -->
+      {% block body_div %}
+        <div id="page2">
+            <div class="container-fluid">
+                <div class="aboutText">
+                    <h1 id="what-is-ytdownloader">What is YouDownloader?</h1>
+                    <p class="aboutParagraph" id="4-1-p">YouDownloader is a <strong>powerful online tool</strong> designed to provide to all your <strong>video downloading needs</strong>. Whether you want to save your <strong>favorite music videos</strong>, <strong>educational content</strong>, or <strong>entertaining clips</strong> for offline viewing, YouDownloader has got you covered. With a user-friendly interface and <strong>seamless functionality</strong>, downloading YouTube videos has never been more convenient. You'll have your chosen videos downloaded and ready to <strong>enjoy anytime, anywhere</strong>. <strong>Embrace the freedom</strong> of offline viewing with YouDownloader and <strong>unlock a world of captivating content</strong> at your fingertips.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div class="page3title">
+                <h1 id="easy-to-use">Easy to Use.</h1>
+                <p class="about-phrase" id="4-2-p"><strong>Straightforward</strong> and <strong>intuitive</strong> platform for video downloads.</p>
+            </div>
+                <div class="container-fluid card-container">
+                    <div class="row">
+                            <div class="card-group">
+                                <div class="card">
+                                <img src="../static/images/card-1.jpg" alt="Card 1" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title" id="4-1-h4">Search</h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                <img src="../static/images/card-2.jpg" alt="Card 2" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title" id="4-2-h4">Watch</h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                <img src="../static/images/card-3.jpg" alt="Card 3" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title" id="4-3-h4">Download</h4>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+      {% endblock %}
+
+      <div id="footer">
+        <p class="footerP" id="footer"><strong id="made-by">Made by</strong><a href="https://github.com/g-franklinn" class="nameA"><em>Gabriel Franklin</em></a> <strong>|</strong> <a href="{{ url_for('about_page') }}" class="footerA" id="about-us-page">About us</a> <a href="{{ url_for('terms_of_use_page') }}" class="footerA" id="terms-of-service">Terms of service</a> <a href="" class="footerA"></a> <a href="{{ url_for('policy_page') }}" class="footerA" id="privacy-policy">Privacy Policy</a></p>
+    </div>
+
+    <!-- scroll-to-top button -->
+    <div class="scroll-to-top-btn">
+        <i class="fas fa-arrow-up" style="color: #ffffff;"></i>
+    </div>
+
+
+    <!--JS and jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // SCROOL TO TOP BUTTON
+        $(document).ready(function() {
+        // Show/hide scroll-to-top button on scroll
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+            $('.scroll-to-top-btn').fadeIn();
+            } else {
+            $('.scroll-to-top-btn').fadeOut();
+            }
+        });
+
+        // Scroll to top when the button is clicked
+        $('.scroll-to-top-btn').click(function() {
+            window.scrollTo(0, 0);
+            history.replaceState(null, null, ' ');
+        });
+        });
+    </script>
+
+    <!-- Translate buttons -->
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
