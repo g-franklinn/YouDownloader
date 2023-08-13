@@ -6,6 +6,7 @@ itsdangerous
 Jinja2
 MarkupSafe
 python-dotenv
-pytube
+youtube-dl
+yt-dlp
 Werkzeug
 gunicorn
