@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, session
-from pytube.exceptions import RegexMatchError, VideoUnavailable
-from pytube import YouTube
+from yt_dlp import YoutubeDL
 from dotenv import load_dotenv
 import os
 
@@ -21,17 +20,18 @@ def search_video():
         video_url = request.form['videoURL']
         try:
             if video_url:
-                yt = YouTube(video_url)
-                video_stream = yt.streams.get_highest_resolution()
-                download_link = video_stream.url
-                video_title = yt.title
+                ydl_opts = {'format': 'best'}
+                with YoutubeDL(ydl_opts) as ydl:
+                    info_dict = ydl.extract_info(video_url, download=False)
+                    download_link = info_dict['url']
+                    video_title = info_dict['title']
 
                 session['download_link'] = download_link
 
                 return render_template("download.html", video_title=video_title)
             else:
                 return redirect('/')
-        except (RegexMatchError, VideoUnavailable):
+        except Exception as e:
             video_title = "Please, Insert a Valid URL."
             return render_template('error.html', video_title=video_title)
     else:
@@ -60,4 +60,4 @@ def terms_of_use_page():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
